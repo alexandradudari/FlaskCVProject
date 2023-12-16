@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Experience{% endblock %}
+
+{% block heading %}Experience{% endblock %}
+
+{% block content %}
+<div class="center-table">
+    <table id="table">
+        <tr>
+            <th>Title</th>
+            <th>Company</th>
+            <th>Year</th>
+        </tr>
+        {% for entry in experience %}
+        <tr>
+            <td>{{ entry.title }}</td>
+            <td>{{ entry.company }}</td>
+            <td>{{ entry.year }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}

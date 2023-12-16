@@ -1,0 +1,114 @@
+/* Style the body */
+    body {
+      font-family: Arial;
+      margin: 0;
+      display: flex;
+      flex-direction: column; /* Make it a column layout for small screens */
+    }
+
+/* Center the table */
+.center-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Ensure it takes up the full height */
+}
+
+
+/* Navigation bar styles */
+    nav {
+      background-color: #1abc9c;
+      padding: 20px;
+      height: 100vh; /* Adjust as needed */
+      box-sizing: border-box;
+      color: white;
+      text-align: center;
+    }
+
+    nav a {
+      display: block;
+      padding: 10px;
+      color: white;
+      text-decoration: none;
+    }
+
+/* Header/Logo Title */
+    .header {
+      display: flex;
+      justify-content: center; /* Center items horizontally */
+      align-items: center; /* Center items vertically */
+      padding: 20px;
+      background: #1abc9c;
+      color: white;
+      font-size: 30px;
+    }
+
+/* Page Content */
+    .content {
+      padding: 20px;
+    }
+
+    #table {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    #table td, #table th {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+
+    #table tr:nth-child(even){background-color: #f2f2f2;}
+
+    #table tr:hover {background-color: #ddd;}
+
+    #table th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: #1abc9c;
+      color: white;
+    }
+
+/* Media query for responsive design */
+    @media screen and (min-width: 601px) {
+      body {
+        flex-direction: row; /* Switch to row layout for larger screens */
+      }
+    }
+
+
+/* Add these styles to your existing styles.css file */
+
+.about-me {
+  border: 2px solid #1abc9c; /* Border color */
+  padding: 20px; /* Padding around the content */
+  margin: 20px 0; /* Margin for spacing */
+  max-width: 600px; /* Set a maximum width for the content */
+}
+
+.about-me h1 {
+  color: #1abc9c; /* Heading color */
+  text-align: center; /* Center the heading */
+}
+
+.about-me h2 {
+  color: #333; /* Text color */
+  font-weight: normal; /* Remove bold font */
+  margin-bottom: 15px; /* Bottom margin for paragraphs */
+}
+
+
+/* Add these styles to your existing styles.css file */
+
+.profile-photo {
+  width: 200px; /* Set the desired width */
+  height: 200px; /* Set the desired height */
+  border-radius: 50%; /* Make the photo round */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  display: block; /* Ensure it's treated as a block element */
+  margin: 0 auto; /* Center the photo horizontally */
+  margin-bottom: 20px; /* Add margin for spacing */
+}
+

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Alexandra Dudari{% endblock %}
+
+{% block heading %}WELCOME TO MY CV!{% endblock %}
+
+{% block content %}
+<img class="profile-photo" src="{{ url_for('static', filename='photo.jpg') }}" alt="Alexandra Dudari">
+<div class="about-me">
+        <h1>About Me</h1>
+        <h2>I am a results-driven IT professional with a strong foundation in mathematics and a deep passion for computer science. Thriving on challenges, I bring technical expertise in Python, API integration, and AWS, coupled with a commitment to continuous learning.</h2>
+
+        <h2>My dedication extends to education, where I find joy in delivering course content and inspiring students. I approach tasks with a combination of optimism, realism, and a focus on producing meaningful results.</h2>
+
+        <h2>Let's explore the exciting intersection of technology and knowledge together.</h2>
+</div>
+{% endblock %}

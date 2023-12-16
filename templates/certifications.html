@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Certifications{% endblock %}
+
+{% block heading %}Certifications{% endblock %}
+
+{% block content %}
+<div class="center-table">
+    <table id="table">
+        <tr>
+            <th>Certificate</th>
+            <th>Issuer</th>
+        </tr>
+        {% for entry in certifications %}
+        <tr>
+            <td>{{ entry.certificate }}</td>
+            <td>{{ entry.issuer }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}

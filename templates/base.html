@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My CV{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('get_cv') }}">Home</a></li>
+            <li><a href="{{ url_for('get_personal_info') }}">Personal</a></li>
+            <li><a href="{{ url_for('get_education') }}">Education</a></li>
+            <li><a href="{{ url_for('get_experience') }}">Experience</a></li>
+            <li><a href="{{ url_for('get_certifications') }}">Certifications</a></li>
+        </ul>
+    </nav>
+    <div class="header">
+        <h1>{% block heading %}My CV{% endblock %}</h1>
+    </div>
+    <section class="content">
+        {% block content %}{% endblock %}
+    </section>
+    <footer>
+    </footer>
+</body>
+</html>

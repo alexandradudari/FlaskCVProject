@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Education{% endblock %}
+
+{% block heading %}Education{% endblock %}
+
+{% block content %}
+<div class="center-table">
+    <table id="table">
+        <tr>
+            <th>Degree</th>
+            <th>School</th>
+        </tr>
+        {% for entry in education %}
+        <tr>
+            <td>{{ entry.degree }}</td>
+            <td>{{ entry.school }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}

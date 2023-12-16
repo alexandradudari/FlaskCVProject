@@ -1,0 +1,76 @@
+{
+     "personal": [
+        {
+            "attribute": "Name",
+            "value": "Alexandra Dudari"
+        },
+        {
+            "attribute": "Email",
+            "value": "alexandra.dudari@gmail.com"
+        },
+        {
+            "attribute": "Phone",
+            "value": "+(40) 745 933 653"
+        }
+    ],
+    "experience": [
+        {
+            "title": "Python Developer",
+            "company": "nShift",
+            "year": "08/2019 - present"
+        },
+        {
+            "title": "Python Instructor",
+            "company": "Atelierele ILBAH",
+            "year": "12/2022 - present"
+        },
+        {
+            "title": "Python Trainer",
+            "company": "BitAcademy",
+            "year": "06/2019 - 11/2022"
+        },
+        {
+            "title": "Private Tutor",
+            "company": "FreeLancer",
+            "year": "10/2012 - 09/2022"
+        },
+        {
+            "title": "Software Developer",
+            "company": "NXDATA",
+            "year": "08/2018 - 08/2019"
+        },
+        {
+            "title": "Computer Science and Mathematics Teacher",
+            "company": "Happy Children Academy",
+            "year": "09/2017 - 03/2018"
+        }
+    ],
+    "education": [
+        {
+            "degree": "Bachelor of Science",
+            "school": "Universitatea Tehnica de Constructii Bucuresti"
+        }
+    ],
+    "certifications": [
+        {
+            "certificate": "AWS Certified Cloud Practitioner",
+            "issuer": "Amazon Web Services (AWS)"
+        },
+        {
+            "certificate": "[PCEP-30-02] PCEP – Certified Entry-Level Python Programmer Certification",
+            "issuer": "Python Institute"
+        },
+        {
+            "certificate": "[PCAP-31-03] PCAP – Certified Associate in Python Programming Certification",
+            "issuer": "Python Institute"
+        },
+        {
+            "certificate": "Trainer Certificate",
+            "issuer": "Autoritatea Nationala pentru Calificari"
+        },
+        {
+            "certificate": "Professional Scrum Master™ I (PSM I)",
+            "issuer": "Scrum.org"
+        }
+    ]
+}
